@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GIPHY Google Book Search - CortezEDU</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <!-- Bootstrap CSS -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div id="header">
+            <nav class="navbar navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fa fa-book"></i> GIPHY Google Book Search</a>
+              </div>
+            </nav>
+        </div>
+        <div id="content" class="px-1">
+            <div class="input-group p-5 bg-dark">
+              <span class="input-group-text">Topic</span>
+              <input type="text" id="input" class="form-control">
+              <button id="mainButton" class="btn btn-primary">Search</button>
+            </div>
+            <div class="bg-secondary text-white p-3">
+              <h1 class="fw-bolder">Topic: <span id="search-topic" class="fw-light"></span></h1>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div id="img-wrapper" class="col-12 col-md-4 bg-light p-3">
+                  
+                </div>
+                <div id="book-list" class="col-12 col-md-8 p-3">
+                  
+                </div>
+              </div>
+            </div>
+            
+            
+        </div>
+        <div id="footer" class="p-5 fw-light bg-secondary text-white">
+          Copyright © 2021 Elaine Cortez
+        </div>
+        <script src="async.js"></script>
+        <!-- Bootstrap JS -->
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
